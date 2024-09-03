@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color> <!-- Preto -->
+    <color name="white">#FFFFFFFF</color> <!-- Branco -->
+    <color name="red">#F44336</color> <!-- Vermelho -->
+    <color name="orange">#F47236</color> <!-- Laranja -->
+    <color name="green">#4CAF50</color> <!-- Verde -->
+    <color name="light_brown">#A39392</color> <!-- Marrom Claro -->
+    <color name="blue">#367CF4</color> <!-- Azul claro -->
+</resources>
