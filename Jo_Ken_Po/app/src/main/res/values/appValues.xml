@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appTitulo">Olha ow RATÔ</string>
+    <string name="appResultado">---</string>
+
+    <string name="txtWin">RAPAIZ</string>
+    <string name="txtLose">MAMOOOU</string>
+    <string name="txtEmpate">É DEUS MAMÃE</string>
+
+
+    <color name="appColorBack">#D0D0D0</color>
+    <color name="appColorFont">#e41678</color>
+    <color name="resultWin">#6CDE4C</color>
+    <color name="resultLose">#DE4C51</color>
+</resources>
