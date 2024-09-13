@@ -35,7 +35,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintVertical_bias="0.5"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/homeImage" />
+        app:srcCompat="@drawable/home01" />
 
 
     <Button
