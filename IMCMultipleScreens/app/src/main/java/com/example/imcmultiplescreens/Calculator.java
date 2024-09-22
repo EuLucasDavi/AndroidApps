@@ -55,7 +55,7 @@ public class Calculator extends AppCompatActivity {
         String alturaStr = altura.getText().toString();
         String pesoStr = peso.getText().toString();
 
-        if (!alturaStr.isEmpty() && !pesoStr.isEmpty()) {
+        if (!nomeStr.isEmpty() && !alturaStr.isEmpty() && !pesoStr.isEmpty()) {
             double calcAltura = Double.parseDouble(alturaStr);
             double calcPeso = Double.parseDouble(pesoStr);
             double res;

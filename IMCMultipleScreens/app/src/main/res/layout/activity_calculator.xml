@@ -33,10 +33,10 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.283"
+        app:layout_constraintHorizontal_bias="0.28"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26" />
+        app:layout_constraintVertical_bias="0.2" />
 
     <EditText
         android:id="@+id/nome"
@@ -45,13 +45,13 @@
         android:ems="10"
         android:minHeight="48dp"
         android:text=""
-        android:hint=""
+        android:hint="Elu / Delu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.50"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.30" />
+        app:layout_constraintVertical_bias="0.25" />
 
 <!--Input Altura-->
     <TextView
@@ -63,10 +63,10 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.279"
+        app:layout_constraintHorizontal_bias="0.28"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393" />
+        app:layout_constraintVertical_bias="0.33" />
 
     <EditText
         android:id="@+id/altura"
@@ -79,12 +79,26 @@
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.439" />
+        app:layout_constraintVertical_bias="0.384" />
 
 <!--Input Peso-->
+    <TextView
+        android:id="@+id/titlePeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46" />
+
     <EditText
         android:id="@+id/peso"
         android:layout_width="wrap_content"
@@ -96,23 +110,10 @@
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.606" />
-
-    <TextView
-        android:id="@+id/titlePeso"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Peso"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.282"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.557" />
+        app:layout_constraintVertical_bias="0.515" />
 
 <!--Botão de calcular-->
     <Button
@@ -130,7 +131,7 @@
         app:layout_constraintHorizontal_bias="0.50"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.80" />
+        app:layout_constraintVertical_bias="0.65" />
 
 <!--Botão de voltar-->
     <Button
@@ -148,6 +149,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9" />
+        app:layout_constraintVertical_bias="0.74" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

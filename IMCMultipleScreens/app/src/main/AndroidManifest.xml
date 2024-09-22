@@ -6,9 +6,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_new_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_new_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IMCMultipleScreens"
         tools:targetApi="31">
@@ -32,6 +32,7 @@
             android:exported="false" />
         <activity
             android:name=".Calculator"
+            android:windowSoftInputMode="adjustPan"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

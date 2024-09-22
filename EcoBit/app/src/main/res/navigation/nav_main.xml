@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/menu_home">
+    <activity
+        android:id="@+id/menu_home"
+        android:name="com.example.ecobit.Home"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+    <activity
+        android:id="@+id/menu_location"
+        android:name="com.example.ecobit.Locations"
+        android:label="activity_locations"
+        tools:layout="@layout/activity_locations" />
+    <activity
+        android:id="@+id/menu_add"
+        android:name="com.example.ecobit.Donate"
+        android:label="activity_donate"
+        tools:layout="@layout/activity_donate" />
+    <activity
+        android:id="@+id/menu_messages"
+        android:name="com.example.ecobit.Messages"
+        android:label="activity_messages"
+        tools:layout="@layout/activity_messages" />
+    <activity
+        android:id="@+id/profile"
+        android:name="com.example.ecobit.Profile"
+        android:label="activity_profile"
+        tools:layout="@layout/activity_profile" />
+</navigation>

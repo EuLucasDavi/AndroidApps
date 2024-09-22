@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="bgColor">#FFFFFFFF</color>
+    <color name="btnColor">#C5AC8D</color>
+    <color name="icColor">#6BA08C</color>
+    <color name="bgImgColor">#C3A19A</color>
+    <color name="imgDtlColor">#886049</color>
+    <color name="bgNavColor">#EAE9E7</color>
+</resources>
