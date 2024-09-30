@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores primárias -->
+    <color name="primary_color">#4CAF50</color> <!-- Verde Saúde -->
+    <color name="primary_dark_color">#388E3C</color> <!-- Verde Escuro -->
+    <color name="primary_light_color">#C8E6C9</color> <!-- Verde Claro -->
+
+    <!-- Cores de Ação -->
+    <color name="accent_color">#03A9F4</color> <!-- Azul Ação -->
+    <color name="secondary_color">#FF9800</color> <!-- Laranja Destaque -->
+
+    <!-- Cores de Fundo -->
+    <color name="background_color">#F5F5F5</color> <!-- Cinza Claro -->
+    <color name="surface_color">#FFFFFF</color> <!-- Branco para superfícies -->
+
+    <!-- Cores de Texto -->
+    <color name="text_primary">#212121</color> <!-- Preto Suave -->
+    <color name="text_secondary">#757575</color> <!-- Cinza Secundário -->
+
+    <!-- Cores de Erro e Sucesso -->
+    <color name="error_color">#D32F2F</color> <!-- Vermelho Erro -->
+    <color name="success_color">#4CAF50</color> <!-- Verde Sucesso -->
+
+    <!-- Cores Neutras -->
+    <color name="gray_light">#E0E0E0</color> <!-- Cinza Claro -->
+    <color name="gray_dark">#424242</color> <!-- Cinza Escuro -->
+
+    <!-- Cores pré-existentes -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

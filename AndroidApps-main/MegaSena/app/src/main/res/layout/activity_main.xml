@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity">
+
+    <!-- Números sorteados -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="MEGA SENA"
+        android:textAlignment="center"
+        android:textColor="@color/title_color"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/num1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        tools:text="MEGA SENA" />
+
+    <TextView
+        android:id="@+id/num1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/number_color"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/num2"
+        app:layout_constraintBottom_toTopOf="@id/sortearButton" />
+
+    <TextView
+        android:id="@+id/num2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/number_color"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintStart_toEndOf="@id/num1"
+        app:layout_constraintEnd_toStartOf="@id/num3"
+        app:layout_constraintBottom_toTopOf="@id/sortearButton" />
+
+    <TextView
+        android:id="@+id/num3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/number_color"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintStart_toEndOf="@id/num2"
+        app:layout_constraintEnd_toStartOf="@id/num4"
+        app:layout_constraintBottom_toTopOf="@id/sortearButton" />
+
+    <TextView
+        android:id="@+id/num4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/number_color"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintStart_toEndOf="@id/num3"
+        app:layout_constraintEnd_toStartOf="@id/num5"
+        app:layout_constraintBottom_toTopOf="@id/sortearButton" />
+
+    <TextView
+        android:id="@+id/num5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/number_color"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintStart_toEndOf="@id/num4"
+        app:layout_constraintEnd_toStartOf="@id/num6"
+        app:layout_constraintBottom_toTopOf="@id/sortearButton" />
+
+    <TextView
+        android:id="@+id/num6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/number_color"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintStart_toEndOf="@id/num5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/sortearButton" />
+
+    <!-- Botão para sortear -->
+    <Button
+        android:id="@+id/sortearButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="SORTEAR"
+        android:textColor="@color/button_text_color"
+        android:backgroundTint="@color/button_color"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toBottomOf="@id/num6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/limparButton" />
+
+    <!-- Botão para limpar -->
+    <Button
+        android:id="@+id/limparButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="LIMPAR"
+        android:textColor="@color/button_text_color"
+        android:backgroundTint="@color/button_color"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toBottomOf="@id/sortearButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
