@@ -2,6 +2,7 @@ package com.example.restaurante;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.Switch;
 import android.widget.TextView;
@@ -15,6 +16,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.google.android.material.textfield.TextInputEditText;
+
+import java.util.Objects;
 
 public class Pagamento extends AppCompatActivity {
 
@@ -68,12 +71,13 @@ public class Pagamento extends AppCompatActivity {
         });
 
         btnPagar.setOnClickListener(v -> {
-            if (getValue() != null || getValue() != 0.00){
+            String valorString = valorEditText.getText().toString().trim();
+            if (!valorString.isEmpty()){
                 Intent intent = new Intent(this, Efetuado.class);
                 intent.putExtra("valorFinal", result.getText().toString());
                 startActivity(intent);
             }else{
-                Toast.makeText(this, "Preencha todos os Campos ou valor inválido", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Preencha todos os Campos", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -90,13 +94,14 @@ public class Pagamento extends AppCompatActivity {
     }
 
     public Double getValue() {
-        String valorString = valorEditText.getText().toString().trim();
+        String valorString = Objects.requireNonNull(valorEditText.getText()).toString().trim();
         return Double.parseDouble(valorString.replace("R$", "").trim());
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
+        Log.i("teste","teste");
         valorEditText.setText("");
         result.setText("R$ 0,00");
         swPark.setChecked(false);
